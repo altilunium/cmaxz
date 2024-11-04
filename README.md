@@ -9,7 +9,7 @@ https://altilunium.github.io/cmaxz/
 
 ![image](https://github.com/user-attachments/assets/2f4f1f21-a163-4a24-964e-1d8d21e59047)
 
-In meteorology, [**CMax(Z)** (short for "Composite Maximum Reflectivity")](https://www.bmkg.go.id/cuaca/citra-radar.bmkg) refers to the maximum radar reflectivity observed within a vertical column of the atmosphere, typically represented in decibels of reflectivity (**dBZ**). This measure is particularly useful in identifying the most intense parts of a storm and areas of heavy precipitation.
+In meteorology,[**CMax(Z)** (short for ["Composite Maximum Reflectivity"](https://www.bmkg.go.id/cuaca/citra-radar.bmkg)) refers to the maximum radar reflectivity observed within a vertical column of the atmosphere, typically represented in decibels of reflectivity (**dBZ**). This measure is particularly useful in identifying the most intense parts of a storm and areas of heavy precipitation.
 
 * CMax(Z) does not reflect a specific altitude but rather shows the highest reflectivity value within the entire vertical profile above a particular location.
 * Since CMax represents the highest value, it helps highlight areas with intense weather activity, such as thunderstorms or hail.
