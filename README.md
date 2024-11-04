@@ -43,3 +43,6 @@ Reflectivity is influenced by several factors, including:
 * Particle Concentration : A high concentration of small particles can also produce significant reflectivity, though less so than larger particles.
 * Type of Precipitation : Raindrops reflect radar waves more efficiently than snowflakes because liquid water is denser and more reflective.
 * Particle Shape: The shape of the particles can affect how radar waves scatter. For instance, large raindrops flatten as they fall, which can affect reflectivity.
+
+### Data sources
+https://www.rainviewer.com/sources.html
