@@ -33,3 +33,13 @@ Weather radar imagery describes the potential intensity of rainfall detected by 
 * Decibels provide a logarithmic scale, which compresses a wide range of reflectivity values. In radar meteorology, dBZ is used because it simplifies the large range of reflectivity values, making them easier to interpret. For example, a 10 dBZ increase corresponds to a tenfold increase in reflectivity.
 * Reflectivity values (Z) are converted to decibels (dBZ) because this makes it possible to handle the wide variation in precipitation intensity, from light rain to extreme hail.
 
+Reflectivity in meteorology refers to the ability of objects (like raindrops, snowflakes, or hail) to reflect radar signals. Weather radars emit electromagnetic waves that travel outward from the radar system. When these waves encounter particles in the atmosphere—such as raindrops, snowflakes, or ice—they scatter. Some of this scattered energy returns to the radar, and the strength of this "echo" or "return signal" is what we call reflectivity.
+
+Reflectivity, represented as Z, is a measurement based on the size and concentration of particles in a given volume of air. The Z value is proportional to the sixth power of particle diameter, which means larger particles contribute disproportionately to reflectivity. Because Z values can vary widely (from small drizzle droplets to large hailstones), radar systems convert reflectivity into a logarithmic unit, dBZ (decibels of reflectivity), to compress the range and make interpretation easier. Each 10 dBZ increase represents a tenfold increase in reflectivity.
+
+Reflectivity is influenced by several factors, including: 
+
+* Particle Size : Larger particles like hail or heavy raindrops produce stronger reflections than smaller particles like drizzle.
+* Particle Concentration : A high concentration of small particles can also produce significant reflectivity, though less so than larger particles.
+* Type of Precipitation : Raindrops reflect radar waves more efficiently than snowflakes because liquid water is denser and more reflective.
+* Particle Shape: The shape of the particles can affect how radar waves scatter. For instance, large raindrops flatten as they fall, which can affect reflectivity.
