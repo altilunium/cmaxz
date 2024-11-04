@@ -26,3 +26,10 @@ Weather radar imagery describes the potential intensity of rainfall detected by 
 | Moderate rain               | 35 to 45        | 5 to 10 |
 | Heavy rain                  | 45 to 55        | 10 to 20|
 | Very heavy rain             | > 55            | > 20    |
+
+**dBZ** stands for "decibels of Z," where **Z** represents the radar reflectivity factor, a measure of the density and size of hydrometeors (such as raindrops, snowflakes, or hail) in the atmosphere. The **dBZ** unit indicates the intensity of returned radar signals on a logarithmic scale.
+
+* The **Z** in dBZ refers to the radar reflectivity factor, a value proportional to the amount of power returned to the radar. This reflectivity factor is essentially a measurement of how much of the radar’s signal is scattered back by particles in the air.
+* Decibels provide a logarithmic scale, which compresses a wide range of reflectivity values. In radar meteorology, dBZ is used because it simplifies the large range of reflectivity values, making them easier to interpret. For example, a 10 dBZ increase corresponds to a tenfold increase in reflectivity.
+* Reflectivity values (Z) are converted to decibels (dBZ) because this makes it possible to handle the wide variation in precipitation intensity, from light rain to extreme hail.
+
