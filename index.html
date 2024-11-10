@@ -295,6 +295,13 @@ L.Control.Rainviewer = L.Control.extend({
         this.radarLayers[this.nextTimestamp].setOpacity(this.options.opacity);
 
         document.getElementById("timestamp").innerHTML = (new Date(this.nextTimestamp * 1000)).toLocaleString();
+        document.title = new Date(this.nextTimestamp * 1000).toLocaleTimeString([], {
+  hour: '2-digit',
+  minute: '2-digit',
+  second: '2-digit'
+});
+
+        document.title = document.title + " cmaxz"
     },
 
     /**
@@ -398,7 +405,7 @@ L.control.rainviewer = function (opts) {
 
 		// create the tile layer with correct attribution
 		var osmUrl = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
-		var osmAttrib = '<a href="https://github.com/altilunium/cmaxz">cmaxz v24.11.4</a> | Map data © <a href="https://openstreetmap.org">OpenStreetMap</a> contributors';
+		var osmAttrib = '<a href="https://github.com/altilunium/cmaxz">cmaxz v24.11.10</a> | Map data © <a href="https://openstreetmap.org">OpenStreetMap</a> contributors';
 		var osm = new L.TileLayer(osmUrl, {
 			attribution: osmAttrib
 		});
