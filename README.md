@@ -46,3 +46,10 @@ Reflectivity is influenced by several factors, including:
 
 ### Data sources
 https://www.rainviewer.com/sources.html
+
+### Changelog
+#### v24.11.10
+* document.title = timestamp
+
+#### v24.11.4
+* Initial release
